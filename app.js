@@ -36,3 +36,5 @@ document.getElementById('save-plan').onclick=()=>{state.totalAssets=Number(docum
 document.getElementById('currency-select').onchange=e=>{state.currency=e.target.value;saveState()};
 applyState();
 if(!state.initialized)setupModal.classList.remove('hidden');
+document.querySelector('#page-overview .stat-card:nth-child(3) .card-top span').textContent='总资产';
+document.querySelector('#page-overview .stat-card:nth-child(3) .trend').textContent='资产总额';
