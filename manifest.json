@@ -1,0 +1,14 @@
+{
+  "name": "Flowdesk 现金流驾驶舱",
+  "short_name": "Flowdesk",
+  "description": "个人现金流、预算、资产负债与固定开销管理",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#050609",
+  "theme_color": "#0a0b0f",
+  "orientation": "portrait-primary",
+  "icons": [
+    {"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}
+  ]
+}

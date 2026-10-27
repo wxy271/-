@@ -1,4 +1,4 @@
-const pages={overview:'总览',cashflow:'现金流',ledger:'记账本',assets:'资产负债',rules:'价格规则'};
+const pages={overview:'总览',cashflow:'现金流',ledger:'记账本',assets:'资产负债',rules:'价格规则',features:'功能中心'};
 const DEMO_STATE={budget:9500,spent:2658.4,totalAssets:186420,income:12450,reserve:3000,fixed:3200,currency:'CNY',transactions:[{date:'今天 08:32',name:'盒马鲜生',cat:'餐饮',account:'银行卡',amount:68,type:'negative'},{date:'昨天 18:20',name:'地铁出行',cat:'交通',account:'银行卡',amount:4,type:'negative'},{date:'6月15日',name:'自由职业收入',cat:'收入',account:'银行卡',amount:8800,type:'positive'},{date:'6月12日',name:'房租',cat:'居住',account:'银行卡',amount:3200,type:'negative'},{date:'6月10日',name:'Netflix',cat:'订阅',account:'银行卡',amount:65,type:'negative'}]};
 const EMPTY_STATE={budget:0,spent:0,totalAssets:0,income:0,reserve:0,fixed:0,currency:'CNY',transactions:[]};
 const loadState=()=>{try{return JSON.parse(localStorage.getItem('flowdesk-state'))||null}catch{return null}};
